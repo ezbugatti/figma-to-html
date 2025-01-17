@@ -1,0 +1,706 @@
+.frame {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+    position: relative;
+  }
+  
+  .frame .dashboard-title {
+    display: flex;
+    width: 1189px;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .frame .div {
+    display: inline-flex;
+    align-items: center;
+    gap: 20px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .frame .text-wrapper {
+    position: relative;
+    width: 70px;
+    height: 18px;
+    margin-top: -1.00px;
+    font-family: "Noto Sans KR-Bold", Helvetica;
+    font-weight: 700;
+    color: var(--black-title);
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .frame .div-2 {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 10px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .frame .text-wrapper-2 {
+    position: relative;
+    width: 64px;
+    height: 18px;
+    margin-top: -1.00px;
+    font-family: "Noto Sans KR-Bold", Helvetica;
+    font-weight: 700;
+    color: #2064B0;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .frame .plus-icon {
+    position: relative;
+    width: 19.5px;
+    height: 19.5px;
+    margin-top: -0.75px;
+    margin-bottom: -0.75px;
+    margin-right: -0.75px;
+  }
+  
+  .frame .text-wrapper-3 {
+    width: 162px;
+    height: 18px;
+    margin-top: -1.00px;
+    font-family: "Noto Sans KR-Bold", Helvetica;
+    font-weight: 700;
+    color: var(--black-title);
+    font-size: 18px;
+    line-height: 18px;
+    white-space: nowrap;
+    position: relative;
+    text-align: center;
+    letter-spacing: 0;
+  }
+  
+  .frame .div-3 {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+  
+  .frame .video-part-wrapper {
+    color: white;
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 48px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .frame .video-part {
+    
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 25px;
+    padding: 20px;
+    position: relative;
+    flex: 0 0 auto;
+    background-color: var(--white);
+    border-radius: 25px;
+    border: 0.3px solid;
+    border-color: var(--stroke-color);
+    box-shadow: 0px 0px 22px #4880ff1f;
+  }
+  
+  .frame .video-card {
+    position: relative;
+    width: 309.041px;
+    height: 180px;
+    flex-shrink: 0;
+  }
+  
+  .frame .overlap-group-wrapper {
+    position: relative;
+    width: 310px;
+    height: 180px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 2px 10px #00000012;
+  }
+  
+  .frame .overlap-group {
+    position: relative;
+    height: 180px;
+  }
+  
+  .frame .picture {
+    position: absolute;
+    width: 309px;
+    height: 180px;
+    top: 0;
+    left: 0;
+    background-image: url(./img/picture-4.png);
+    background-size: cover;
+    background-position: 50% 50%;
+  }
+  
+  .frame .black-bg {
+    position: absolute;
+    width: 310px;
+    height: 180px;
+    top: 0;
+    left: 0;
+    background-color: #000000b5;
+  }
+  
+  .frame .content {
+    position: absolute;
+    width: 309px;
+    height: 180px;
+    top: 0;
+    left: 0;
+  }
+  
+  .frame .vert-icon {
+    position: absolute;
+    width: 16px;
+    height: 18px;
+    top: 14px;
+    left: 282px;
+  }
+  
+  .frame .dot {
+    position: absolute;
+    width: 3px;
+    height: 4px;
+    top: 1px;
+    left: 7px;
+    background-color: #ffffff;
+    border-radius: 1.67px / 1.88px;
+  }
+  
+  .frame .dot-2 {
+    top: 7px;
+    position: absolute;
+    width: 3px;
+    height: 4px;
+    left: 7px;
+    background-color: #ffffff;
+    border-radius: 1.67px / 1.88px;
+  }
+  
+  .frame .dot-3 {
+    top: 13px;
+    position: absolute;
+    width: 3px;
+    height: 4px;
+    left: 7px;
+    background-color: #ffffff;
+    border-radius: 1.67px / 1.88px;
+  }
+  
+  .frame .title-text {
+
+    position: absolute;
+    width: 275px;
+    height: 124px;
+    top: 43px;
+    left: 17px;
+  }
+  
+  .frame .title {
+    position: absolute;
+    width: 275px;
+    height: 32px;
+    top: -21px;
+    left: 0;
+    font-family: "Noto Sans KR-Bold", Helvetica;
+    font-weight: 700;
+    color: var(--primary-white);
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 19.2px;
+  }
+  
+  .frame .div-4 {
+    display: flex;
+    flex-direction: column;
+    width: 275px;
+    align-items: flex-start;
+    gap: 5px;
+    position: absolute;
+    top: 22px;
+    left: 0;
+  }
+  
+  .frame .subtitle {
+    position: relative;
+    align-self: stretch;
+    height: 15px;
+    margin-top: -1.00px;
+    font-family: "Noto Sans KR-Medium", Helvetica;
+    font-weight: 500;
+    color: var(--primary-white);
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 16.8px;
+    white-space: nowrap;
+  }
+  
+  .frame .video-date-wrapper {
+    display: flex;
+    height: 20px;
+    align-items: center;
+    gap: 29px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+  }
+  
+  .frame .video-date {
+    position: relative;
+    width: 275px;
+    height: 20px;
+    margin-top: -1.00px;
+    font-family: "Noto Sans KR-Light", Helvetica;
+    font-weight: 300;
+    color: var(--white);
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 16.8px;
+    white-space: nowrap;
+  }
+  
+  .frame .div-5 {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 14px;
+    position: absolute;
+    top: 97px;
+    left: 1px;
+  }
+  
+  .frame .movie-title {
+    position: relative;
+    width: 144px;
+    height: 20px;
+    font-family: "Noto Sans KR-Regular", Helvetica;
+    font-weight: 400;
+    color: var(--primary-white);
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 16.8px;
+    white-space: nowrap;
+  }
+  
+  .frame .div-6 {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    padding: 3px 10px;
+    position: relative;
+    flex: 0 0 auto;
+    border-radius: 5px;
+  }
+  
+  .frame .user {
+    position: relative;
+    width: 20px;
+    height: 20px;
+  }
+  
+  .frame .video-time {
+    position: relative;
+    width: fit-content;
+    margin-top: -1.00px;
+    font-family: "Noto Sans KR-Bold", Helvetica;
+    font-weight: 700;
+    color: var(--white);
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .frame .picture-2 {
+    position: absolute;
+    width: 309px;
+    height: 180px;
+    top: 0;
+    left: 0;
+    background-image: url(./img/picture-3.png);
+    background-size: cover;
+    background-position: 50% 50%;
+  }
+  
+  .frame .div-7 {
+    display: flex;
+    width: 970px;
+    align-items: center;
+    gap: 20px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .frame .picture-3 {
+    position: absolute;
+    width: 309px;
+    height: 180px;
+    top: 0;
+    left: 0;
+    background-image: url(./img/picture-2.png);
+    background-size: cover;
+    background-position: 50% 50%;
+  }
+  
+  .frame .picture-4 {
+    position: absolute;
+    width: 309px;
+    height: 180px;
+    top: 0;
+    left: 0;
+    background-image: url(./img/image.png);
+    background-size: cover;
+    background-position: 50% 50%;
+  }
+  
+  .frame .picture-5 {
+    position: absolute;
+    width: 309px;
+    height: 180px;
+    top: 0;
+    left: 0;
+    background-image: url(./img/picture.png);
+    background-size: cover;
+    background-position: 50% 50%;
+  }
+  
+  .frame .view {
+    position: relative;
+    width: 572px;
+    height: 424px;
+    background-color: #ffffff;
+    border-radius: 25px;
+    overflow: hidden;
+    border: 0.3px solid;
+    border-color: #f7f9fc;
+    box-shadow: 6px 6px 54px #00000007;
+  }
+  
+  .frame .overlap {
+    position: relative;
+    height: 408px;
+  }
+  
+  .frame .group {
+    position: absolute;
+    width: 561px;
+    height: 404px;
+    top: 4px;
+    left: 6px;
+    border-radius: 25px;
+    box-shadow: 6px 6px 54px #00000007;
+  }
+  
+  .frame .div-8 {
+    display: flex;
+    flex-direction: column;
+    width: 572px;
+    align-items: flex-start;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+  .frame .div-9 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+  
+  .frame .div-10 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 20px 30px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+  
+  .frame .text-wrapper-4 {
+    width: 111px;
+    height: 23px;
+    margin-top: -1.00px;
+    font-family: "Noto Sans KR-Bold", Helvetica;
+    font-weight: 700;
+    color: #333333;
+    font-size: 16px;
+    line-height: normal;
+    position: relative;
+    text-align: center;
+    letter-spacing: 0;
+  }
+  
+  .frame .text-wrapper-5 {
+    position: relative;
+    width: 111px;
+    margin-top: -1.00px;
+    font-family: "Noto Sans KR-Bold", Helvetica;
+    font-weight: 700;
+    color: #333333;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .frame .line {
+    position: relative;
+    width: 504px;
+    height: 1px;
+    object-fit: cover;
+  }
+  
+  .frame .div-11 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 30px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+  
+  .frame .text-wrapper-6 {
+    width: 111px;
+    height: 23px;
+    font-family: "Noto Sans KR-Regular", Helvetica;
+    font-weight: 400;
+    color: #626262;
+    font-size: 16px;
+    line-height: normal;
+    position: relative;
+    text-align: center;
+    letter-spacing: 0;
+  }
+  
+  .frame .text-wrapper-7 {
+    width: 111px;
+    font-family: "Noto Sans KR-Regular", Helvetica;
+    font-weight: 400;
+    color: #626262;
+    font-size: 16px;
+    line-height: normal;
+    position: relative;
+    text-align: center;
+    letter-spacing: 0;
+  }
+  
+  .frame .div-12 {
+    display: flex;
+    width: 111px;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px 15px;
+    position: relative;
+    border-radius: 20px;
+  }
+  
+  .frame .div-wrapper {
+    position: relative;
+    width: 19px;
+    height: 19px;
+  }
+  
+  .frame .overlap-group-2 {
+    top: -3px;
+    left: -3px;
+    background-image: url(./img/path.svg);
+    background-size: 100% 100%;
+    position: relative;
+    width: 21px;
+    height: 21px;
+    border-radius: 10.5px;
+    border: 2px solid;
+    border-color: var(--f9-white);
+  }
+  
+  .frame .text-wrapper-8 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1.00px;
+    font-family: "Noto Sans KR-Regular", Helvetica;
+    font-weight: 400;
+    color: var(--gray-title);
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .frame .frame-wrapper {
+    display: flex;
+    width: 110px;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px 15px;
+    position: relative;
+    border-radius: 20px;
+  }
+  
+  .frame .div-wrapper-2 {
+    display: flex;
+    width: 68px;
+    align-items: center;
+    justify-content: space-around;
+    gap: 10px;
+    padding: 5px 24px;
+    position: relative;
+    background-color: #b7dbc8a1;
+    border-radius: 20px;
+  }
+  
+  .frame .text-wrapper-9 {
+    width: fit-content;
+    margin-top: -1.00px;
+    margin-left: -4.00px;
+    margin-right: -4.00px;
+    font-family: "Noto Sans KR-Medium", Helvetica;
+    font-weight: 500;
+    color: var(--green);
+    font-size: 15px;
+    line-height: normal;
+    position: relative;
+    text-align: center;
+    letter-spacing: 0;
+  }
+  
+  .frame .img-wrapper {
+    top: -1px;
+    left: -1px;
+    position: relative;
+    width: 21px;
+    height: 21px;
+    border-radius: 10.5px;
+    border: 2px solid;
+    border-color: var(--f9-white);
+  }
+  
+  .frame .shape {
+    position: absolute;
+    width: 10px;
+    height: 18px;
+    top: -2px;
+    left: 9px;
+  }
+  
+  .frame .text-wrapper-10 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1.00px;
+    font-family: "Noto Sans KR-Regular", Helvetica;
+    font-weight: 400;
+    color: var(--black-title);
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .frame .path {
+    position: absolute;
+    width: 10px;
+    height: 21px;
+    top: -2px;
+    left: 8px;
+  }
+  
+  .frame .overlap-group-3 {
+    top: -3px;
+    left: -3px;
+    background-image: url(./img/path-3.svg);
+    background-size: 100% 100%;
+    position: relative;
+    width: 21px;
+    height: 21px;
+    border-radius: 10.5px;
+    border: 2px solid;
+    border-color: var(--f9-white);
+  }
+
+  .circular-progress {
+    width: 24px;
+    height: 24px;
+    position: relative;
+}
+
+.circular-progress svg {
+    width: 24px;
+    height: 24px;
+    transform: rotate(-90deg);
+}
+
+.circular-progress circle {
+    fill: none;
+    stroke-width: 2.5;
+    stroke-linecap: round;
+    transform-origin: center;
+}
+
+.circular-progress .bg {
+    stroke: #E0E0E0;
+}
+
+.circular-progress .progress {
+    stroke: #2196F3;
+    stroke-dasharray: 62.8;
+    stroke-dashoffset: 0;
+    transition: stroke-dashoffset 0.3s ease;
+}
+
+.div-12 {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.progress-text {
+    color: #626262;
+    font-size: 14px;
+    font-family: "Noto Sans KR-Regular", Helvetica;
+}
+
+/* Хувийн тоо */
+.progress-text {
+    color: #333;
+    font-size: 14px;
+}
+
+
+/* "수료" badge */
+.status-complete {
+    background: #E8F5E9;
+    color: #2E7D32;
+    padding: 4px 12px;
+    border-radius: 12px;
+    font-size: 14px;
+}
+
+  
